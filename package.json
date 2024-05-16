@@ -1,0 +1,30 @@
+{
+    "name": "newman-reporter-json-extralight",
+    "version": "1.0.0",
+    "description": "Reporter which provide a concise JSON summary of essential run data, omitting stream-related and assertion script details. It significantly reduces JSON size from 450MB to 6MB, enhancing performance and readability.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "newman",
+      "postman",
+      "reporter",
+      "extralight",
+      "json"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/happysahota/newman-reporter-json-extralight.git"
+    },
+    "dependencies": {
+        "newman": "^6.1.2"
+    },
+    "author": "Harpreet Singh Sahota",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/happysahota/newman-reporter-json-extralight/issues"
+    },
+    "homepage": "https://github.com/happysahota/newman-reporter-json-extralight#readme",
+    "snyk": false
+  }
