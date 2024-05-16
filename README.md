@@ -15,7 +15,7 @@ The "newman-reporter-json-extralight" customizes Newman's reporting, providing a
    ```
 2. Specify the reporter when running Newman:
    ```bash
-   newman run <collection-file> --reporters newman-reporter-json-extralight
+   newman run <collection-file> --reporters json-extralight
    ```
 
 Schema followed by the reporter:
