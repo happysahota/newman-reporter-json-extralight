@@ -30,8 +30,8 @@ module.exports = function (newman, options) {
         try {
             newman.exports.push({
                 name: 'json-reporter',
-                default: 'newman-run-report.json',
-                path: options.export,
+                default: 'newman-extralight.json',
+                path: options.jsonExtralightExport,
                 content: JSON.stringify(_.omit(summary_run, 'exports'), 0, 2)
             });
         } catch (error) {

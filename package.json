@@ -1,6 +1,6 @@
 {
     "name": "newman-reporter-json-extralight",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Reporter which provide a concise JSON summary of essential run data, omitting stream-related and assertion script details. It significantly reduces JSON size from 450MB to 6MB, enhancing performance and readability.",
     "main": "index.js",
     "scripts": {
